@@ -1,0 +1,80 @@
+.background {
+    z-index: 900;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.2;
+}
+
+.form_auth {
+    z-index: 1000;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.header_auth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_auth h1 {
+    display: inline-block;
+    margin-bottom: 18px;
+    font-size: 44px;
+}
+
+.header_auth img {
+    width: 40px;
+    height: 40px;
+}
+
+.form_auth label {
+    font-size: 24px;
+}
+
+.form_auth input {
+    width: 480px;
+    margin: 14px 0;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 1px solid #a5a5a5;
+}
+
+.form_auth p,
+.form_auth a,
+.form_auth button {
+    margin-top: 14px;
+}
+
+.form_auth p {
+    color: #c80000;
+}
+
+.form_auth button {
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.login {
+    background: #7fe500;
+    color: #fff;
+    font-size: 28px;
+    border: none;
+}
+
+.reg {
+    font-size: 28px;
+    border: none;
+    width: 440px;
+    text-align: center;
+    background: #efefef;
+    padding: 10px 20px;
+    color: #000;
+}
